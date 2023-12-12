@@ -14,7 +14,7 @@ const Services = () => {
           <ServiceCard icon={webDevelopmentIcon} title="Web Development">
             Crafting dynamic and interactive web applications with React.js.
             From user interfaces to complex functionalities, I specialize in
-            leveraging React's power for seamless user experiences.
+            leveraging React&apos;s power for seamless user experiences.
           </ServiceCard>
           <ServiceCard icon={responsiveIcon} title="Responsive Design">
             Designing visually appealing and responsive frontend layouts.

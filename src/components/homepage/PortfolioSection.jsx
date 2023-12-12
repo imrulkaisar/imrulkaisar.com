@@ -61,7 +61,7 @@ const PortfolioSection = () => {
               title: "Radiant Beauty Shop",
               type: "Cosmetics eCommerce shop",
               description:
-                "Radiant, an exquisite Beauty and Custometrics eCommerce shop, illuminates your inner glow. Effortlessly add and update products for a personalized beauty routine. The intuitive filtering system ensures easy exploration of products from favorite brands, providing a radiant shopping experience.",
+                "Radiant, an exquisite Beauty and Cosmetics eCommerce shop, illuminates your inner glow. Effortlessly add and update products for a personalized beauty routine. The intuitive filtering system ensures easy exploration of products from favorite brands, providing a radiant shopping experience.",
               technologies: [
                 "React.js",
                 "Express.js",
