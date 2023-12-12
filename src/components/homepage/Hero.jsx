@@ -13,7 +13,7 @@ const Hero = () => {
     >
       <div className="container-area flex justify-between items-center gap-10">
         <h2 className="text-white text-6xl leading-tight font-bold font-secondary">
-          Hello! I'm, <br />
+          Hello! I&apos;m, <br />
           Imrul Kaisar <br />
           Frondend Developer
         </h2>
