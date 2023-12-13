@@ -1,6 +1,9 @@
+import { Button } from "@components/ui/button";
+import Link from "next/link";
+
 const AboutSection = () => {
   return (
-    <section className="container-area py-20 flex flex-col items-center">
+    <section className="container-area py-20 flex flex-col items-center space-y-8">
       <p className="max-w-4xl text-center text-xl leading-relaxed">
         Detail-oriented front-end developer passionate about creating seamless
         user experiences. Leveraging expertise in HTML, CSS, and React.js, with
@@ -10,6 +13,9 @@ const AboutSection = () => {
         full-stack contributions. Eager to drive impactful solutions for dynamic
         teams.
       </p>
+      <Link href="/resume.pdf" download="true">
+        <Button className="bg-[#0753ec] text-xl">Download My Resume</Button>
+      </Link>
     </section>
   );
 };

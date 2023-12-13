@@ -9,10 +9,10 @@ const Hero = () => {
       style={{
         backgroundImage: `url(${bgImage.src})`,
       }}
-      className="min-h-screen bg-violetBg flex justify-between items-center bg-cover bg-center"
+      className="min-h-screen bg-violetBg flex justify-between items-center bg-cover bg-center py-10 px-5 lg:px-0"
     >
-      <div className="container-area flex justify-between items-center gap-10">
-        <h2 className="text-white text-6xl leading-tight font-bold font-secondary">
+      <div className="container-area flex flex-col-reverse lg:flex-row justify-between items-center gap-10">
+        <h2 className="text-white text-4xl xl:text-6xl text-center lg:text-left leading-tight font-bold font-secondary">
           Hello! I&apos;m, <br />
           Imrul Kaisar <br />
           Frondend Developer

@@ -8,9 +8,9 @@ import githubIcon from "@assets/images/icons/github.svg";
 
 const Footer = () => {
   return (
-    <footer className="">
+    <footer className="" id="contact">
       <div className="py-16 bg-gray-700">
-        <div className="container-area max-w-4xl flex gap-8 justify-between text-white text-2xl">
+        <div className="container-area max-w-4xl flex flex-col lg:flex-row gap-8 justify-between text-white text-2xl">
           <a
             href="mailto:imrulkaisar3@gmail.com"
             className="flex flex-col gap-5 items-center"
@@ -37,7 +37,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="py-8 bg-gray-900 text-gray-300">
-        <div className="container-area flex justify-between items-center">
+        <div className="container-area flex flex-col md:flex-row gap-5 justify-between items-center">
           <p>&copy;2023 Imrul Kaisar | All Right Reserved</p>
           <div className="flex gap-3">
             <a href="https://www.linkedin.com/in/imrulkaisar/" target="_blank">

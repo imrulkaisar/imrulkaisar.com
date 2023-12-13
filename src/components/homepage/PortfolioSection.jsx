@@ -13,6 +13,7 @@ const PortfolioSection = () => {
         backgroundImage: `url(${bg.src})`,
       }}
       className="py-20"
+      id="portfolios"
     >
       <div className="container-area max-w-4xl space-y-12">
         <h2 className="section-heading text-center">Portfolios</h2>
