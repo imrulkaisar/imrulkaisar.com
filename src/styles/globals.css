@@ -93,6 +93,6 @@
     @apply flex gap-5 items-center;
   }
   .portfolio {
-    @apply flex gap-8;
+    @apply flex flex-col lg:flex-row gap-8;
   }
 }

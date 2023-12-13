@@ -12,7 +12,7 @@ const PortfolioCard = ({ data }) => {
     <div className="portfolio">
       <div className="min-w-[250px]">
         <Image
-          className="w-full h-[250px] object-cover object-top border"
+          className="w-full lg:h-[250px] object-cover object-top border"
           src={image}
           width="300"
           height="300"
