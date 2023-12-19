@@ -4,8 +4,8 @@ const MenuItems = () => {
   return (
     <>
       <Link href="/">Home</Link>
-      <Link href="/portfolios">Portfolios</Link>
-      <Link href="/contact">Contact</Link>
+      <Link href="/#portfolios">Portfolios</Link>
+      <Link href="/#footer">Contact</Link>
     </>
   );
 };
