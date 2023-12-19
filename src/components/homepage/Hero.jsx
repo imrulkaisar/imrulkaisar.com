@@ -15,7 +15,7 @@ const Hero = () => {
         <h2 className="text-white text-4xl xl:text-6xl text-center lg:text-left leading-tight font-bold font-secondary">
           Hello! I&apos;m, <br />
           Imrul Kaisar <br />
-          Frondend Developer
+          Front-end Developer
         </h2>
         <Image
           src={profileImage}
